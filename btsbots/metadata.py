@@ -8,11 +8,11 @@ Information describing the project.
 package = 'btsbots'
 project = "btsbots"
 project_no_spaces = project.replace(' ', '')
-version = '0.0.16'
+version = '0.0.17'
 description = 'trade bots for Bitshares'
-authors = ['Alt']
+authors = ['alt']
 authors_string = ', '.join(authors)
-emails = ['pch957@gmail.com']
+emails = ['liujialing75@gmail.com']
 license = 'MIT'
 copyright = '2015 ' + authors_string
-url = 'https://github.com/pch957/btsbots'
+url = 'https://github.com/bitcrab/btsbots'
