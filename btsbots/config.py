@@ -4,7 +4,7 @@ peg_asset_list = [
     "KRW", "BTC", "SILVER", "GOLD", "TRY",
     "SGD", "HKD", "RUB", "SEK", "NZD", "CNY",
     "MXN", "CAD", "CHF", "AUD", "GBP", "JPY",
-    "EUR", "USD", "TCNY", "TUSD", "ARS"]
+    "EUR", "USD", "ARS"]
 
 pusher_prefix = "btsbots.trade"
 service_account = "pay.btsbots"
@@ -33,8 +33,6 @@ asset_info = {
     'SEK': {'id': '1.3.111', 'precision': 4},
     'SGD': {'id': '1.3.108', 'precision': 4},
     'SILVER': {'id': '1.3.105', 'precision': 4},
-    'TCNY': {'id': '1.3.734', 'precision': 4},
-    'TUSD': {'id': '1.3.780', 'precision': 4},
     'TRADE.BTC': {'id': '1.3.350', 'precision': 8},
     'TRY': {'id': '1.3.107', 'precision': 4},
     'USD': {'id': '1.3.121', 'precision': 4}}
